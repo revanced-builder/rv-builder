@@ -21,6 +21,7 @@ arch = "both"
 [Twitter]
 build-mode = "apk"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android"
+excluded-patches = "'Dynamic color'"
 
 [Twitch]
 enabled = false
