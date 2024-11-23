@@ -8,7 +8,7 @@ parallel-jobs = 1
 
 [YouTube]
 build-mode = "apk"
-excluded-patches = ""
+excluded-patches = "'Swipe controls' 'Playback speed'"
 included-patches = ""
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
