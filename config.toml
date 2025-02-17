@@ -9,7 +9,8 @@ parallel-jobs = 1
 [YouTube]
 build-mode = "apk"
 excluded-patches = "'Swipe controls' 'Playback speed'"
-included-patches = ""
+included-patches = "'Custom branding'"
+patcher-args = "-OappName=ReYouTube"
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
@@ -50,7 +51,7 @@ patches-source = "inotia00/revanced-patches"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "Extended"
 build-mode = "apk"
-excluded-patches = "'Enable debug logging' 'Swipe controls' 'MaterialYou' 'Custom branding icon for YouTube' 'Custom branding name for YouTube'"
+excluded-patches = "'Enable debug logging' 'Swipe controls' 'Custom branding icon for YouTube' 'Custom branding name for YouTube'"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 
