@@ -8,6 +8,7 @@ parallel-jobs = 1
 
 [YouTube]
 build-mode = "apk"
+app-name = "ReYouTube"
 excluded-patches = "'Swipe controls' 'Playback speed'"
 included-patches = ""
 version = "auto"
