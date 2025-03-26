@@ -79,7 +79,6 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/messenger/"
 arch = "arm64-v8a"
 
 [Spotify]
-enabled = false
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
 
 [IconPackStudio]
