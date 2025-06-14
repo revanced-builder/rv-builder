@@ -9,7 +9,7 @@ parallel-jobs = 1
 [YouTube]
 build-mode = "apk"
 excluded-patches = "'Swipe controls' 'Playback speed'"
-patcher-args = "-e 'Custom branding' -OiconPath"
+patcher-args = "-e 'Custom branding' -OiconPath=null"
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
