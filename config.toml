@@ -9,8 +9,7 @@ parallel-jobs = 1
 [YouTube]
 build-mode = "apk"
 excluded-patches = "'Swipe controls' 'Playback speed'"
-included-patches = "'Custom branding'"
-patcher-args = "-OappName=ReYouTube"
+patcher-args = "-e 'Custom branding' -OappName=ReYouTube"
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
